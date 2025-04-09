@@ -16,6 +16,11 @@ public class StudentJsonObject {
         student.put("age", 21);
         student.put("subjects", subjects);
 
-        System.out.println(student.toString());
+        JSONObject student1 = new JSONObject();
+        student1.put("name", "Riya");
+        student1.put("age", 20);
+        student1.put("subjects", subjects);
+
+        System.out.println(student.toString() + "\n" + student1.toString());
     }
 }
