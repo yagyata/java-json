@@ -22,7 +22,6 @@ public class ParseAndFilterRecords {
                 }
             }
 
-            // Print the filtered JSON
             System.out.println(objectMapper.writeValueAsString(filteredArray));
 
         } catch (IOException e) {
