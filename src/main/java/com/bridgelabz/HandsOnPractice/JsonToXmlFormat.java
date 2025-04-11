@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 
-public class jsonToXmlFormat {
+public class JsonToXmlFormat {
     public static void main(String[] args) {
         try {
             String jsonFormat = "{\"name\":\"Yagyata\",\"age\":21}";

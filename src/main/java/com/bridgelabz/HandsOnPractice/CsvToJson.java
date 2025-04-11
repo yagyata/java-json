@@ -8,7 +8,7 @@ import com.opencsv.CSVReader;
 import java.io.FileReader;
 import java.util.List;
 
-public class csvToJson {
+public class CsvToJson {
     public static void main(String[] args) {
         String csvFile = "src/main/java/com/bridgelabz/HandsOnPractice/data.csv";
         try(CSVReader reader = new CSVReader(new FileReader(csvFile))) {
